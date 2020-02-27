@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import API from "../utils/API";
 import SearchForm from "../components/SearchForm";
+import employees from "../employees.json";
 let i;
 
 class Home extends Component {
@@ -12,8 +13,10 @@ class Home extends Component {
     };
 
     componentDidMount() {
-        this.giveMe4();
-        this.giveMe4();
+        console.log(employees);
+        this.giveMe4()
+        .then(res => console.log(res))
+        .catch(err => console.log(err));
     }
 
     giveMe4() {
