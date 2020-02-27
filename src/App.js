@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from "./pages/Home"
-import Card from "./components/Card";
+import StaticCard from "./components/StaticCard";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
@@ -12,7 +12,7 @@ function App() {
         <Header />
         <Wrapper>
           <Home />
-          <Card />
+          <StaticCard />
         </Wrapper>
         <Footer />
       </div>

@@ -1,9 +1,8 @@
 import React from "react";
 
-function Col(props) {
-    const size = props.size.split(" ").map(size => "col-" + size).join(" ");
+function Col() {
 
-    return <div className={size} {...props} />;
+    return <div className="col-sm-2" />;
 }
 
 export default Col;
