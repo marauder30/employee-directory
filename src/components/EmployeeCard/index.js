@@ -5,20 +5,20 @@ function EmployeeCard(props) {
     return (
         <div
           className="card">
-              <div class="row justify-content-center">
-                <div class="col-sm-2">
+              <div className="row justify-content-center">
+                <div className="col-sm-2">
                     Image {props.image}
                 </div>
-                <div class="col-sm-2">
+                <div className="col-sm-2">
                     Name {props.name}
                 </div>
-                <div class="col-sm-2">
+                <div className="col-sm-2">
                     Phone {props.phone}
                 </div>
-                <div class="col-sm-3">
+                <div className="col-sm-3">
                     Email {props.email}
                 </div>
-                <div class="col-sm-2">
+                <div className="col-sm-2">
                     DOB {props.birthdate}
                 </div>                
               </div>
